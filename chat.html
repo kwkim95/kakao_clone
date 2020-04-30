@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <title>Chat | Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">15:01</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-down"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <span class="headr__back-btn">
+          <a href="javascript:history.back();">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+        </span>
+        <h1 class="header__title">Friends</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </div>
+    </header>
+    <main class="chat">
+      <ul class="chat__message">
+        <span class="chat__timestamp">Friday, May 1, 2020</span>
+        <li class="chat__incoming">
+          <div class="chat__column">
+            <img src="images/iu.jpg" alt="" class="g-avatar message__avatar" />
+          </div>
+          <div class="chat__column">
+            <div class="chat__content">
+              <span class="chat__author">IU</span>
+              <div class="chat__bubble">오늘 뭐했어?</div>
+            </div>
+          </div>
+          <div class="chat__column">
+            <span class="chat__message-timestamp">16:48</span>
+          </div>
+        </li>
+        <li class="chat__outcominhg">
+          <div class="chat__column">
+            <span class="chat__message-timestamp">16:50</span>
+          </div>
+          <div class="chat__column">
+            <div class="chat__content">
+              <div class="chat__bubble">숙제 했어!</div>
+            </div>
+          </div>
+        </li>
+        <li class="chat__incoming">
+          <div class="chat__column">
+            <img src="images/iu.jpg" alt="" class="g-avatar message__avatar" />
+          </div>
+          <div class="chat__column">
+            <div class="chat__content">
+              <span class="chat__author">IU</span>
+              <div class="chat__bubble">잘했어</div>
+            </div>
+          </div>
+          <div class="chat__column">
+            <span class="chat__message-timestamp">16:51</span>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write">
+      <div class="chat__write-column">
+        <span class="chat__write-icon">
+          <i class="far fa-plus-square"></i>
+        </span>
+      </div>
+      <div class="chat__write-column">
+        <form>
+          <input
+            type="text"
+            class="chat__wrtie-message"
+            placeholder="Send message"
+          />
+        </form>
+      </div>
+      <div class="chat__write-column">
+        <span class="chat__write-icon">
+          <i class="far fa-smile"></i>
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
