@@ -1,9 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
 @import "status-bar.css";
+@import "header.css";
 
 body {
   background-color: white;
   padding: 10px 20px; /* 10px top bottom 20px left right*/
   color: #020202;
+}
+
+a {
+  color: inherit; /* 부모의 칼라 속성을 받아옴 */
 }
