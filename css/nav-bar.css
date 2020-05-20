@@ -1,0 +1,38 @@
+.nav {
+  position: fixed;
+  width: 100%; /* position fixed 사용할때는 width를 꼭 사용해야함 */
+  bottom: 0;
+  left: 0;
+  padding: 20px 50px;
+  background-color: #fcfcfc;
+  border-top: 1px solid #f7f7f7;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav i {
+  font-size: 20px;
+}
+
+.nav .nav__list-link {
+  position: relative; /* relative 설정하지 않으면 absolute는 body에 대해
+                        위치값을 가짐*/
+}
+
+.nav .nav__badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 15px;
+  color: white;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

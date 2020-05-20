@@ -2,7 +2,17 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
+@import "nav-bar.css";
 
+/* padding을 추가하면 자동적으로 box의 크기가
+                              padding을 더한 크기로 커지고 content의
+                              크기는 유지가 된다. 
+                              border-box를 사용하면 content의 크기가
+                              padding을 제외한 값으로 감소하고 box의
+                              크기는 유지가 된다.*/
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: white;
   padding: 10px 20px; /* 10px top bottom 20px left right*/
