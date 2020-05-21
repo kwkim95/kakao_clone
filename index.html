@@ -51,21 +51,22 @@
     </header>
     <main class="chats">
       <ul class="chats__list">
-        <a href="chat.html">
-          <li class="chats__chat chat">
-            <div class="chat__column">
-              <!-- 모든 이미지들이 같은 모양으로 표현되기에 이들을 위한 전역 클래스를 만듦 -->
-              <img src="images/iu.jpg" class="chat__avater g-avater" />
-              <div class="chat__content">
-                <span class="chat__username">IU</span>
-                <span class="chat__preview">Bye!</span>
+        <li class="chats__chat chat">
+          <a href="chat.html">
+            <div class="chats__chat friend">
+              <div class="friend__column">
+                <img src="images/iu.jpg" class="friend__avatar m-avatar" />
+                <div class="friend__content">
+                  <span class="friend__username">IU</span>
+                  <span class="friend__bottom-text">Good Morning!</span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">May 21</span>
               </div>
             </div>
-            <div class="chat__column">
-              <span class="chat__time">Yesterday</span>
-            </div>
-          </li>
-        </a>
+          </a>
+        </li>
       </ul>
     </main>
     <nav class="nav">

@@ -3,6 +3,8 @@
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
+@import "friend.css";
+@import "friends.css";
 
 /* padding을 추가하면 자동적으로 box의 크기가
                               padding을 더한 크기로 커지고 content의
@@ -21,4 +23,5 @@ body {
 
 a {
   color: inherit; /* 부모의 칼라 속성을 받아옴 */
+  text-decoration: none;
 }
