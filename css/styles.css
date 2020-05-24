@@ -9,6 +9,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "mobile.css";
 
 /* padding을 추가하면 자동적으로 box의 크기가
                               padding을 더한 크기로 커지고 content의
