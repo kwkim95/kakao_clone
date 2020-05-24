@@ -27,3 +27,7 @@
   opacity: 0.7;
   margin-bottom: 20px;
 }
+
+.find__friend .find__column {
+  display: flex;
+}

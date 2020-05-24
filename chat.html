@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chat__body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span id="clock" class="status-bar__clock">00:00</span>
@@ -43,45 +43,43 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__message">
         <span class="chat__timestamp">Friday, May 1, 2020</span>
-        <li class="chat__incoming">
+        <li class="chat__incoming message">
           <div class="chat__column">
             <img src="images/iu.jpg" alt="" class="message__avatar" />
           </div>
           <div class="chat__column">
             <div class="chat__content">
               <span class="chat__author">IU</span>
-              <div class="chat__bubble">오늘 뭐했어?</div>
+              <div class="chat__column__column">
+                <div class="chat__bubble">오늘 뭐했어?</div>
+                <span class="chat__message-timestamp">16:48</span>
+              </div>
             </div>
           </div>
-          <div class="chat__column">
-            <span class="chat__message-timestamp">16:48</span>
-          </div>
         </li>
-        <li class="chat__outcominhg">
+        <li class="chat__outcoming message">
           <div class="chat__column">
-            <span class="chat__message-timestamp">16:50</span>
-          </div>
-          <div class="chat__column">
-            <div class="chat__content">
+            <div class="chat__content chat__column__column">
+              <span class="chat__message-timestamp">16:50</span>
               <div class="chat__bubble">숙제 했어!</div>
             </div>
           </div>
         </li>
-        <li class="chat__incoming">
+        <li class="chat__incoming message">
           <div class="chat__column">
             <img src="images/iu.jpg" alt="" class="message__avatar" />
           </div>
           <div class="chat__column">
             <div class="chat__content">
               <span class="chat__author">IU</span>
-              <div class="chat__bubble">잘했어</div>
+              <div class="chat__column__column">
+                <div class="chat__bubble">잘했어</div>
+                <span class="chat__message-timestamp">16:51</span>
+              </div>
             </div>
-          </div>
-          <div class="chat__column">
-            <span class="chat__message-timestamp">16:51</span>
           </div>
         </li>
       </ul>

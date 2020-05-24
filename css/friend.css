@@ -65,3 +65,8 @@
   background-color: #f5f5ff;
   border-radius: 5px;
 }
+
+.friend__content .friend__username {
+  margin-top: 15px;
+  font-weight: 700;
+}
