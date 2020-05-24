@@ -1,4 +1,5 @@
-.friends .friends__plus {
+.friends .friends__plus,
+.friends .friends__birthday {
   margin: 20px 0px;
   padding: 20px 0px;
   border-top: 1px solid #f7f7f7;
@@ -6,6 +7,7 @@
 }
 
 .friends__plus .friends__title,
+.friends__birthday .friends__title,
 .friends__list .friends__title {
   font-size: 14px;
   opacity: 0.6;
@@ -15,4 +17,8 @@
 .friends__friend .friend__column:nth-child(2) {
   font-size: 15px;
   opacity: 0.6;
+}
+
+.friends__list .friends__friend {
+  margin-bottom: 20px;
 }
